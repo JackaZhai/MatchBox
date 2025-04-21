@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Optional Editor directories
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output (if applicable)
+dist/
+build/
+out/

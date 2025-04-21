@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <title>MatchBox App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MatchBox</h1>
+    <p>使用快捷键:</p>
+    <ul>
+        <li>截图到剪贴板: <kbd>Ctrl+Shift+S</kbd> (或 <kbd>Cmd+Shift+S</kbd> on macOS)</li>
+        <li>查询选定单词: <kbd>Ctrl+Shift+D</kbd> (或 <kbd>Cmd+Shift+D</kbd> on macOS)</li>
+    </ul>
+    <hr>
+    <h2>查询结果:</h2>
+    <div id="query-result">按查询快捷键获取选定文本...</div>
+    <div id="screenshot-feedback" class="feedback"></div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

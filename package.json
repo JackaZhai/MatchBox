@@ -1,0 +1,25 @@
+{
+  "name": "matchbox-1",
+  "version": "1.0.0",
+  "description": "Screenshot and word query app",
+  "main": "main.js",
+  "scripts": {
+    "prestart": "npm install", 
+    "start": "electron .",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackaZhai/MatchBox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackaZhai/MatchBox/issues"
+  },
+  "homepage": "https://github.com/JackaZhai/MatchBox#readme",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #555;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+#query-result {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-height: 50px;
+    white-space: pre-wrap; /* 保留换行和空格 */
+    word-wrap: break-word; /* 长单词换行 */
+}
+
+.feedback {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
